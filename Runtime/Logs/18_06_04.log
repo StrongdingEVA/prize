@@ -1,0 +1,14 @@
+[ 2018-06-04T17:19:23+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0360s ]
+
+[ 2018-06-04T17:37:32+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: insert into luck_sendtemp_log (`access_token`,`content`,`res`,`create_time`) values ('111','222','333',1528105052) [ RunTime:0.0650s ]
+

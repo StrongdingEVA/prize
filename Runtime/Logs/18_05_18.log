@@ -1,0 +1,493 @@
+[ 2018-05-18T10:14:11+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] fopen(Uploads/2018-05-18/5afe36f34229b.cn/mmopen/vi_32/DYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA/132): failed to open stream: No such file or directory D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 371 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 372 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 373 行.
+NOTIC: [2] imagecopyresampled() expects parameter 2 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 245 行.
+
+[ 2018-05-18T10:15:47+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0150s ]
+NOTIC: [2] fopen(Uploads/2018-05-18/5afe375370ea8.cn/mmopen/vi_32/DYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA/132): failed to open stream: No such file or directory D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 372 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 373 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 374 行.
+
+[ 2018-05-18T10:16:18+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [2] fopen(Uploads/2018-05-18/5afe3772158c0.cn/mmopen/vi_32/DYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA/132): failed to open stream: No such file or directory D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 372 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 373 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 374 行.
+
+[ 2018-05-18T10:16:49+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+
+[ 2018-05-18T10:18:31+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+
+[ 2018-05-18T10:22:13+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+
+[ 2018-05-18T10:22:34+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+
+[ 2018-05-18T10:28:53+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 257 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 257 行.
+
+[ 2018-05-18T10:30:27+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+
+[ 2018-05-18T10:31:30+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+
+[ 2018-05-18T10:32:51+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+
+[ 2018-05-18T10:34:39+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0260s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+
+[ 2018-05-18T10:34:57+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 258 行.
+
+[ 2018-05-18T10:42:46+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-18T10:42:58+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:47:41+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] Wrong parameter count for imagettftext() D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 277 行.
+
+[ 2018-05-18T10:50:28+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:50:55+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0190s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:51:20+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:52:14+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:52:39+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:53:11+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:53:33+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:54:14+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:54:36+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:55:01+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:56:32+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:56:42+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T10:59:52+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T11:00:28+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0210s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T11:00:40+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T11:01:38+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T11:01:54+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 267 行.
+
+[ 2018-05-18T11:22:09+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:29:11+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:29:27+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:30:13+08:00 ] 127.0.0.1 /api.php
+ERR: 无法加载控制器:Index
+
+[ 2018-05-18T11:33:50+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0230s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:34:24+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:34:40+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:42:19+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:42:44+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:43:36+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:44:26+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:46:59+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:48:06+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 275 行.
+
+[ 2018-05-18T11:58:10+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+
+[ 2018-05-18T11:58:27+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+
+[ 2018-05-18T12:02:40+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+
+[ 2018-05-18T12:36:55+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 268 行.
+
+[ 2018-05-18T12:40:23+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+
+[ 2018-05-18T12:40:35+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+
+[ 2018-05-18T12:40:53+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+
+[ 2018-05-18T12:41:23+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-18T12:42:14+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 269 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 269 行.
+
+[ 2018-05-18T13:39:17+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: local_url D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 195 行.
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+
+[ 2018-05-18T13:39:28+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: local_url D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 195 行.
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+
+[ 2018-05-18T13:44:55+08:00 ] 127.0.0.1 /api.php/makeWinnerPic
+ERR: 无法加载控制器:MakeWinnerPic
+
+[ 2018-05-18T13:45:09+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 254 行.
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\GetInModel.class.php 第 42 行.
+SQL: UPDATE `luck_get_in` SET `win_share`='Uploads/2018-05-18/5afe68657ef4d.jpg',`create_time`='1526622309' WHERE `id` = 15 [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\GetInModel.class.php 第 53 行.
+NOTIC: [2] unlink(./Runtime/Temp/prize_a0124061378eb153f0dd73d533fd86fd.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: UPDATE `luck_member` SET `local_url`='Uploads/2018-05-18/5afe68656f161.jpg' WHERE `uid` = 12 [ RunTime:0.0240s ]
+
+[ 2018-05-18T13:49:09+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-18T13:49:17+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-18T13:49:22+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-18T16:13:57+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0120s ]
+SQL: SELECT `type_uid` FROM `luck_sync_login` WHERE `uid` = 12 AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-18T16:30:55+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0110s ]
+

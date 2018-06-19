@@ -1,0 +1,3 @@
+<?php
+//000000003600a:24:{s:2:"id";s:1:"1";s:7:"user_id";s:1:"0";s:3:"oid";s:1:"0";s:4:"type";s:1:"1";s:5:"thumb";s:36:"Uploads/2018-05-04/5aec0528d5ab6.jpg";s:4:"name";s:12:"测试抽奖";s:3:"num";s:1:"1";s:7:"package";s:4:"0.00";s:11:"package_num";s:1:"0";s:9:"open_type";s:1:"1";s:9:"open_time";s:10:"1527751800";s:8:"open_num";s:1:"0";s:7:"sponsor";s:9:"啊啊啊";s:11:"sponsor_des";s:8:"11111111";s:9:"prize_des";s:10:"1222222222";s:10:"prize_word";s:0:"";s:12:"sponsor_word";s:0:"";s:5:"appid";s:0:"";s:11:"sponsor_url";s:13:"www.baidu.com";s:6:"status";s:1:"1";s:11:"create_time";s:10:"1525417299";s:4:"sort";s:1:"1";s:11:"team_enable";s:1:"0";s:9:"share_pic";s:0:"";}
+?>

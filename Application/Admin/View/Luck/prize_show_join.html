@@ -1,0 +1,66 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>查看参与人数</h2>
+    </div>
+
+    <div class="cf">
+    </div>
+
+    <div class="data-table table-striped">
+        <table>
+            <thead>
+            <tr>
+                <th class="row-selected">
+                    <input class="checkbox check-all" type="checkbox">
+                </th>
+                <th>头像</th>
+                <th>昵称</th>
+                <th>创建时间</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <notempty name="list">
+                <volist name="list" id="vo">
+                    <tr>
+                        <td><input class="ids row-selected" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                        <td>
+                            <img src="{$vo.thumb}" width="100px" alt="">
+                        </td>
+                        <td>
+                            {$vo.nickname}
+                        </td>
+                        <td>{$vo.create_time|time_format}</td>
+                        <td>
+                            <if condition="$vo['status_'] eq 0">
+                                未中奖
+                                <else />
+                                中奖了
+                            </if>
+                        </td>
+                        <td>
+                            <a class="confirm ajax-get" title="删除" href="{:U('prizeDel',array('id'=>$vo['id']))}">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+                <else/>
+                <td colspan="12" class="text-center"> aOh! 暂时还没有内容! </td>
+            </notempty>
+            </tbody>
+        </table>
+        <!-- 分页 -->
+        <div class="page">
+            {$_page}
+        </div>
+    </div>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav("{:U('index')}");
+    </script>
+</block>

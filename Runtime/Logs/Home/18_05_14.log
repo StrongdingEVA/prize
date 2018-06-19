@@ -1,0 +1,52 @@
+[ 2018-05-14T17:25:59+08:00 ] 127.0.0.1 /Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=Uyi9XqS50VBOjbZvhu3gTFmRLMrxwI6dGWo1DAzN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_hooks` [ RunTime:0.0660s ]
+SQL: SELECT `name`,`addons` FROM `luck_hooks`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0410s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment','SocialComment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','SyncLogin','Advertising')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Advs')  [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.124007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.125007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Luck
+
+[ 2018-05-14T17:26:30+08:00 ] 127.0.0.1 /Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=Uyi9XqS50VBOjbZvhu3gTFmRLMrxwI6dGWo1DAzN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Luck
+
+[ 2018-05-14T17:26:42+08:00 ] 127.0.0.1 /Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=Uyi9XqS50VBOjbZvhu3gTFmRLMrxwI6dGWo1DAzN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Luck
+
+[ 2018-05-14T17:29:50+08:00 ] 10.0.20.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+

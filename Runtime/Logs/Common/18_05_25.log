@@ -1,0 +1,30 @@
+[ 2018-05-25T10:06:04+08:00 ] 10.0.20.87 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_hooks` [ RunTime:0.0310s ]
+SQL: SELECT `name`,`addons` FROM `luck_hooks`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0530s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment','SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','SyncLogin','Advertising')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Advs')  [ RunTime:0.0000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.151009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.152009s ]
+
+[ 2018-05-25T17:14:21+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+
+[ 2018-05-25T17:41:34+08:00 ] 127.0.0.1 /Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+

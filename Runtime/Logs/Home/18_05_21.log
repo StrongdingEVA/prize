@@ -1,0 +1,348 @@
+[ 2018-05-21T09:26:41+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_hooks` [ RunTime:0.0180s ]
+SQL: SELECT `name`,`addons` FROM `luck_hooks`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0180s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment','SocialComment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','SyncLogin','Advertising')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Advs')  [ RunTime:0.0000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.095006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.096006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0170s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526866001 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526866001 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `luck_transfer` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Logic\LuckLogic.class.php 第 109 行.
+SQL: INSERT INTO `luck_get_in` (`status`,`id`,`create_time`) VALUES ('1',NULL,'1526866001') [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','27','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='1' WHERE `id` = 27 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_form_id` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Logic\LuckLogic.class.php 第 109 行.
+SQL: INSERT INTO `luck_get_in` (`status`,`id`,`create_time`) VALUES ('1',NULL,'1526866001') [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','28','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='1' WHERE `id` = 28 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Logic\LuckLogic.class.php 第 109 行.
+SQL: INSERT INTO `luck_get_in` (`status`,`id`,`create_time`) VALUES ('1',NULL,'1526866001') [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','29','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='1' WHERE `id` = 29 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2018-05-21T09:49:11+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526867351 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526867351 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-21T11:45:21+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526874321 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526874321 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-21T11:45:50+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526874350 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526874350 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="26" )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `luck_transfer` [ RunTime:0.0070s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 20 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('9','26','','','','') [ RunTime:0.0000s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 16 [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','26','','','','') [ RunTime:0.0000s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='2' WHERE `id` = 26 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_form_id` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 9 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-21T12:03:47+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4') LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-05-21T12:04:12+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4') LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-21T13:45:38+08:00 ] 127.0.0.1 /Home/Task/runTaskOther
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\22_cj\Application\Home\Controller\TaskController.class.php 第 39 行.
+NOTIC: [2] unlink(./Runtime/Temp/prize_6044b0d6029f0c112cb760b8701d799f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-21T13:45:54+08:00 ] 127.0.0.1 /Home/Task/failMsgResend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\22_cj\Application\Home\Controller\TaskController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-21T13:46:04+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526881564 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526881564 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-21T13:47:13+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526881632 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526881632 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="27" )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `luck_transfer` [ RunTime:0.0100s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 17 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','27','','','','') [ RunTime:0.0000s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 21 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_e523af8aab11b425051118991c79e229.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('9','27','','','','') [ RunTime:0.0000s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='2' WHERE `id` = 27 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_dbe417fd03406d91daed0ad9e65c8149.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `luck_form_id` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 9 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="28" )  [ RunTime:0.0010s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 18 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','28','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 22 [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('9','28','','','','') [ RunTime:0.0000s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='2' WHERE `id` = 28 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_d6e72e22485fd9f740e7888c47cf3bd0.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 9 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="29" )  [ RunTime:0.0000s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 19 [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('12','29','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_get_in` SET `status`='1' WHERE `id` = 23 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_ba1aef3f8b7f90be3ba60c6d7838c801.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+SQL: INSERT INTO `luck_address` (`user_id`,`p_id`,`address`,`province`,`city`,`area`) VALUES ('9','29','','','','') [ RunTime:0.0010s ]
+SQL: UPDATE `luck_prize` SET `status`='2',`package_num`='2' WHERE `id` = 29 [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_3c653b2d1286396d5811709f5a5b2b87.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 12 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_form_id` WHERE `user_id` = 9 AND `status` = 0 ORDER BY `id` asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-21T13:48:50+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526881730 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526881730 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-21T13:49:36+08:00 ] 127.0.0.1 /Home/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_time` <= 1526881776 AND `status` = 1 AND `open_type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_time` <= 1526881776 AND `status` = 1 AND `open_type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-21T13:51:04+08:00 ] 127.0.0.1 /Home/Task/failMsgResend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-21T13:53:28+08:00 ] 127.0.0.1 /Home/cli.php/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cli.php
+
+[ 2018-05-21T13:54:28+08:00 ] 127.0.0.1 /Home/cli.php/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cli.php
+
+[ 2018-05-21T13:54:43+08:00 ] 127.0.0.1 /Home/cli.php/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cli.php
+
+[ 2018-05-21T13:55:13+08:00 ] 127.0.0.1 /Home/cli.php/Task/runTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Cli.php
+
+[ 2018-05-21T13:56:03+08:00 ] 127.0.0.1 /Home/cli.php/SendTemplateMsg/getTemplateId
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Cli.php
+

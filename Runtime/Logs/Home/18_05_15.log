@@ -1,0 +1,154 @@
+[ 2018-05-15T11:12:06+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026001s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:12:32+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:12:51+08:00 ] 127.0.0.1 /index.php?Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-05-15T11:12:58+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:13:11+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:13:15+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:14:19+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+ERR: 1146:Table 'prize.luck_channel' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `luck_channel`
+
+[ 2018-05-15T11:17:43+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4') LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-15T11:19:02+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4')  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_form_id` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `luck_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_order` WHERE ( p_id="8" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: order_no D:\phpStudy\WWW\22_cj\Application\Common\Logic\LuckLogic.class.php 第 204 行.
+NOTIC: [8] Undefined index: amount D:\phpStudy\WWW\22_cj\Application\Common\Logic\LuckLogic.class.php 第 207 行.
+NOTIC: [8] Undefined index: transaction_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 149 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 181 行.
+NOTIC: [8] Use of undefined constant STATIC_PATH - assumed 'STATIC_PATH' D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 120 行.
+NOTIC: [8] Use of undefined constant STATIC_PATH - assumed 'STATIC_PATH' D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 121 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2018-05-15T11:22:26+08:00 ] 127.0.0.1 /Home/Task/clearOverAndRefund
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4')  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `open_type` IN ('3','4') AND `status` IN ('1','4') LIMIT 1   [ RunTime:0.0000s ]
+

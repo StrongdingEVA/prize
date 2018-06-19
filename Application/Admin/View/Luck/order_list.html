@@ -1,0 +1,131 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>订单列表</h2>
+    </div>
+
+    <div class="cf">
+        <button class="btn ajax-post confirm" url="{:U('prizeDel')}" target-form="ids">删 除</button>
+
+        <!-- 高级搜索 -->
+        <div class="search-form fr cf">
+            <div class="sleft">
+                <select name="type" id="type">
+                    <option value="-1">选择订单类型</option>
+                    <option value="0" <eq name="type" value="0">selected</eq>>所有</option>
+                    <option value="1" <eq name="type" value="1">selected</eq>>支付订单</option>
+                    <option value="2" <eq name="type" value="2">selected</eq>>退款订单</option>
+                    <option value="3" <eq name="type" value="3">selected</eq>>提现订单</option>
+                </select>
+            </div>
+            <div class="sleft">
+                <input type="text" name="order_no" class="search-input" value="{:I('order_no')}" placeholder="请输入订单号">
+                <a class="sch-btn" href="javascript:;" id="search" url="{:U('orderList')}"><i class="btn-search"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-table table-striped">
+        <table>
+            <thead>
+            <tr>
+                <th class="row-selected">
+                    <input class="checkbox check-all" type="checkbox">
+                </th>
+                <th>昵称</th>
+                <th>订单号</th>
+                <th>微信订单号</th>
+                <th>金额</th>
+                <th>状态</th>
+                <th>类型</th>
+                <th>创建时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <notempty name="list">
+                <volist name="list" id="vo">
+                    <tr>
+                        <td><input class="ids row-selected" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                        <td>{$vo.nickname}</td>
+                        <td>
+                            {$vo.order_no}
+                        </td>
+                        <td>{$vo.wx_no}</td>
+                        <td>
+                            {$vo.amount}
+                        </td>
+                        <td>
+                            <if condition="$vo['status'] eq 1">
+                                处理成功
+                                <elseif condition="$vo['status'] eq 0"/>
+                                等待处理
+                                <else />
+                                处理失败
+                            </if>
+                        </td>
+                        <td>
+                            <if condition="$vo['type'] eq 1">
+                                支付订单
+                                <else />
+                                退款订单
+                            </if>
+                        </td>
+                        <td>{$vo.create_time|time_format}</td>
+                        <td>
+                            <a class="confirm ajax-get" title="删除" href="{:U('orderDel',array('id'=>$vo['id']))}">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+                <else/>
+                <td colspan="12" class="text-center"> aOh! 暂时还没有内容! </td>
+            </notempty>
+            </tbody>
+        </table>
+        <!-- 分页 -->
+        <div class="page">
+            {$_page}
+        </div>
+    </div>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        $(function () {
+            //搜索功能
+            $("#search").click(function () {
+                var url = $(this).attr('url');
+                var query = $('.search-form').find('input').serialize();
+                query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g, '');
+                query = query.replace(/^&/g, '');
+                if (url.indexOf('?') > 0) {
+                    url += '&' + query;
+                } else {
+                    url += '?' + query;
+                }
+                window.location.href = url;
+            });
+
+            $('#type').change(function(){
+                var thisVal = $(this).val();
+                if(thisVal < 0){
+                    return;
+                }
+                window.location.href = '{:U("orderList")}' + '&type=' + thisVal
+            })
+
+            //回车搜索
+            $(".search-input").keyup(function (e) {
+                if (e.keyCode === 13) {
+                    $("#search").click();
+                    return false;
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav("{:U('index')}");
+    </script>
+</block>

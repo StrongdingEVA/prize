@@ -1,0 +1,99 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>提现申请</h2>
+    </div>
+
+    <div class="cf">
+        <button class="btn ajax-post confirm" url="{:U('withdrawDel')}" target-form="ids">删 除</button>
+
+        <!-- 高级搜索 -->
+        <div class="search-form fr cf">
+            <div class="sleft">
+                <select name="status" id="status">
+                    <option value="-1">选择申请状态</option>
+                    <option value="0" <eq name="status" value="0">selected</eq>>所有</option>
+                    <option value="1" <eq name="status" value="1">selected</eq>>未审核</option>
+                    <option value="2" <eq name="status" value="2">selected</eq>>提现成功</option>
+                    <option value="3" <eq name="status" value="3">selected</eq>>提现失败</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-table table-striped">
+        <table>
+            <thead>
+            <tr>
+                <th class="row-selected">
+                    <input class="checkbox check-all" type="checkbox">
+                </th>
+                <th style="width: 15%;">昵称</th>
+                <th style="width: 15%;">金额</th>
+                <th style="width: 15%;">创建时间</th>
+                <th style="width: 15%;">状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <notempty name="list">
+                <volist name="list" id="vo">
+                    <tr>
+                        <td><input class="ids row-selected" type="checkbox" name="id[]" value="{$vo.id}"></td>
+                        <td>{$vo.nickname}</td>
+                        <td>{$vo.amount}</td>
+                        <td>{$vo.create_time|time_format}</td>
+                        <td>
+                            <if condition="$vo['status'] eq 1">
+                                未审核
+                                <elseif condition="$vo['status'] eq 2"/>
+                                提现成功
+                                <else/>
+                                提现失败
+                            </if>
+                        </td>
+                        <td>
+                            <a title="详情" href="{:U('sponsorEdit',array('id'=>$vo['id']))}">详情</a>
+                            <if condition="$vo['status'] eq 1">
+                                <a title="同意申请" href="{:U('changeWithdraw',array('id'=>$vo['id'],value=>2))}">同意申请</a>
+                                <a title="拒绝申请" href="{:U('changeWithdraw',array('id'=>$vo['id'],value=>3))}">拒绝申请</a>
+                            </if>
+
+                            <a class="confirm ajax-get" title="删除" href="{:U('withdrawDel',array('id'=>$vo['id']))}">删除</a>
+                        </td>
+                    </tr>
+                </volist>
+                <else/>
+                <td colspan="12" class="text-center"> aOh! 暂时还没有内容! </td>
+            </notempty>
+            </tbody>
+        </table>
+        <!-- 分页 -->
+        <div class="page">
+            {$_page}
+        </div>
+    </div>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        $(function () {
+            $('select[name=sel_filter]').change(function () {
+                location.href = cleara(SELF) + "&a=pos&sel_filter=" + $(this).val();
+            });
+
+            $('#status').change(function(){
+                var thisVal = $(this).val();
+                if(thisVal < 0){
+                    return;
+                }
+                window.location.href = '{:U("withdraw")}' + '&status=' + thisVal
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav("{:U('index')}");
+    </script>
+</block>

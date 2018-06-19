@@ -1,0 +1,175 @@
+[ 2018-05-24T10:26:43+08:00 ] 127.0.0.1 /api.php/Luck/editPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0770s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0580s ]
+SQL: INSERT INTO `luck_prize` (`id`,`type`,`oid`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`package`,`team_enable`,`user_id`,`create_time`) VALUES ('0','1','0','static/default.png','按人数开奖55555','1','2','0','1','0','1','12','1527128803') [ RunTime:0.0360s ]
+
+[ 2018-05-24T10:27:19+08:00 ] 127.0.0.1 /api.php/Luck/joinPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0130s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_ad5e8b0fa47537c4597342d72bf7f1b0.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_prize` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_ac399f482e352e3c9db13b96a511621e.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\GetInModel.class.php 第 42 行.
+SQL: INSERT INTO `luck_get_in` (`user_id`,`p_id`,`create_time`) VALUES ('12','38','1527128839') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\TeamModel.class.php 第 42 行.
+SQL: INSERT INTO `luck_team` (`user_id`,`p_id`,`g_id`,`sib_id`,`create_time`) VALUES ('12','38','34','0','1527128839') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="38" )  [ RunTime:0.0000s ]
+
+[ 2018-05-24T10:27:36+08:00 ] 127.0.0.1 /api.php/Luck/showPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 38 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 38  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 38 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT luck_member.nickname,luck_member.thumb,luck_team.id,luck_team.g_id,luck_team.user_id FROM `luck_team` LEFT JOIN luck_member ON luck_team.user_id=luck_member.uid  WHERE ( luck_team.sib_id=1 OR id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sib_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\ApiLogic.class.php 第 167 行.
+
+[ 2018-05-24T10:27:58+08:00 ] 127.0.0.1 /api.php/Luck/joinPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="38" )  [ RunTime:0.0000s ]
+
+[ 2018-05-24T10:28:42+08:00 ] 127.0.0.1 /api.php/Luck/joinPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="38" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\GetInModel.class.php 第 42 行.
+SQL: INSERT INTO `luck_get_in` (`user_id`,`p_id`,`create_time`) VALUES ('9','38','1527128922') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_team` WHERE ( id="1" )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\TeamModel.class.php 第 42 行.
+SQL: INSERT INTO `luck_team` (`user_id`,`p_id`,`g_id`,`sib_id`,`create_time`) VALUES ('9','38','35','1','1527128922') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_get_in` WHERE ( p_id="38" )  [ RunTime:0.0000s ]
+
+[ 2018-05-24T10:29:07+08:00 ] 127.0.0.1 /api.php/Luck/showPrize
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="38" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 38 AND `user_id` = 12 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 38 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 38  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 38 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.nickname,luck_member.thumb,luck_team.id,luck_team.g_id,luck_team.user_id FROM `luck_team` LEFT JOIN luck_member ON luck_team.user_id=luck_member.uid  WHERE ( luck_team.sib_id=1 OR id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sib_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\ApiLogic.class.php 第 167 行.
+
+[ 2018-05-24T16:36:41+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-24T16:37:33+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+
+[ 2018-05-24T16:37:55+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+
+[ 2018-05-24T16:37:58+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+
+[ 2018-05-24T16:38:57+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+SQL: UPDATE `luck_member` SET `local_url`='Uploads/2018-05-24/5b067a21ac217.jpg' WHERE `uid` = 12 [ RunTime:0.0540s ]
+
+[ 2018-05-24T16:39:27+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+SQL: UPDATE `luck_member` SET `local_url`='Uploads/2018-05-24/5b067a3f57d40.jpg' WHERE `uid` = 12 [ RunTime:0.0300s ]
+
+[ 2018-05-24T16:39:32+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+SQL: UPDATE `luck_member` SET `local_url`='Uploads/2018-05-24/5b067a3f57d40.jpg' WHERE `uid` = 12 [ RunTime:0.0290s ]
+
+[ 2018-05-24T16:39:38+08:00 ] 127.0.0.1 /api.php/Luck/makeWinnerPic
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_get_in` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+NOTIC: [2] imagedestroy() expects parameter 1 to be resource, null given D:\phpStudy\WWW\22_cj\Application\Api\Logic\ImgLogic.class.php 第 263 行.
+SQL: UPDATE `luck_member` SET `local_url`='Uploads/2018-05-24/5b067a3f57d40.jpg' WHERE `uid` = 12 [ RunTime:0.0280s ]
+

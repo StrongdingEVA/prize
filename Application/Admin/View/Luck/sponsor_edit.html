@@ -1,0 +1,75 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <style>
+        .form-item .controls p{width: 50%;min-height: 300px;text-indent: 38px;font-size: 16px;}
+    </style>
+    <div class="main-title">
+        <h2>查看赞助商申请</h2>
+    </div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item">
+            <label class="item-label">内容<span class="check-tips"></span></label>
+            <div class="controls">
+                <p>{$info.content}</p>
+            </div>
+        </div>
+
+        <div class="form-item">
+            <label class="item-label">状态<span class="check-tips"></span></label>
+            <div class="controls">
+                <input type="radio" name="status" value="1" <eq name="info.status" value="1">checked="checked"</eq>>未读
+                <input type="radio" name="status" value="2" <eq name="info.status" value="2">checked="checked"</eq>>已读
+            </div>
+        </div>
+
+        <div class="form-item">
+            <input type="hidden" name="id" value="{$info.id|default=''}">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript" src="__JS__/jquery.uploadfile.min.js"></script>
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav("{:U('sponsorApply')}");
+        $(function(){
+            $("#fileuploader").uploadFile({
+                url:"Admin/File/upload",
+                dragDropStr:'点击选择图片',
+                uploadStr:'点击选择图片',
+                allowedTypes:'jpg,png,jpeg,gif',
+                extErrorStr:'只能上传以下格式的文件:',
+                fileName:"myfile",
+                maxFileCount:1,
+                onSuccess:function(files, response, xhr, pd){
+                    if(parseInt(response.status) == 1){ //上传成功
+                        var file = response.data.myfile.thumb;
+                        var pics = $('#pics').val();
+                        pics += pics ? ',' + file : file;
+                        $('#pics').val(pics);
+                        $('#fileuploader').before('<img class="modelspic" src="'+ file +'" />');
+                    }else{
+                        alert('图片上传失败');
+                    }
+                }
+            });
+
+            $('#open_type').change(function(){
+                if($(this).val() == 1){
+                    $('#open_time').show();
+                    $('#open_num').hide();
+                }else if($(this).val() == 2){
+                    $('#open_time').hide();
+                    $('#open_num').show();
+                }else{
+                    $('#open_time').hide();
+                    $('#open_num').hide();
+                }
+            })
+        })
+    </script>
+</block>

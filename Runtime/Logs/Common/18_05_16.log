@@ -1,0 +1,42 @@
+[ 2018-05-16T10:06:23+08:00 ] 10.0.20.87 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `luck_hooks` [ RunTime:0.0150s ]
+SQL: SELECT `name`,`addons` FROM `luck_hooks`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment','SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Attachment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','SyncLogin','Advertising')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `luck_addons` WHERE `status` = 1 AND `name` IN ('Advs')  [ RunTime:0.0000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.092005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.094006s ]
+
+[ 2018-05-16T10:37:41+08:00 ] 10.0.20.87 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-05-16T11:23:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-16T11:23:46+08:00 ] 127.0.0.1 /Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-05-16T11:39:18+08:00 ] 127.0.0.1 /Uploads/2018-05-07/5aefb9ca144b3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+

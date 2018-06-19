@@ -1,0 +1,1312 @@
+[ 2018-05-14T17:27:22+08:00 ] 127.0.0.1 /api.php/Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=Uyi9XqS50VBOjbZvhu3gTFmRLMrxwI6dGWo1DAzN
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290042 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290042 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:28:28+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:30:03+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:31:19+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0170s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:31:32+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:33:29+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=021or0v31r5lJO1bLpw31316v31or0vB&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526290408',`last_login_ip`='167777367' WHERE `uid` = 10 [ RunTime:0.0330s ]
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0130s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`thumb` FROM `luck_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username`,`mobile` FROM `luck_ucenter_member` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member_openid` SET `uid`='10',`access_token`='vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB',`open_id`='DBAD68CD-2061-C223-D6B8-1D7DE482917C',`update_time`='1526290409',`create_time`='1525939509' WHERE `id` = 9 [ RunTime:0.0290s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-14T17:34:19+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290459 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290459 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:34:31+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0230s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290471 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526290471 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0130s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:35:59+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.nickname,luck_member.thumb,luck_team.id,luck_team.g_id,luck_team.user_id FROM `luck_team` LEFT JOIN luck_member ON luck_team.user_id=luck_member.uid  WHERE ( luck_team.sib_id=6 OR id=6 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sib_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\ApiLogic.class.php 第 134 行.
+
+[ 2018-05-14T17:36:00+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:36:25+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:36:25+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:37:24+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.nickname,luck_member.thumb,luck_team.id,luck_team.g_id,luck_team.user_id FROM `luck_team` LEFT JOIN luck_member ON luck_team.user_id=luck_member.uid  WHERE ( luck_team.sib_id=6 OR id=6 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sib_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\ApiLogic.class.php 第 134 行.
+
+[ 2018-05-14T17:37:28+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T17:37:28+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0120s ]
+
+[ 2018-05-14T17:37:39+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 10 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT luck_member.nickname,luck_member.thumb,luck_team.id,luck_team.g_id,luck_team.user_id FROM `luck_team` LEFT JOIN luck_member ON luck_team.user_id=luck_member.uid  WHERE ( luck_team.sib_id=6 OR id=6 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sib_id D:\phpStudy\WWW\22_cj\Application\Api\Logic\ApiLogic.class.php 第 134 行.
+
+[ 2018-05-14T17:37:41+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T17:37:41+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0090s ]
+
+[ 2018-05-14T17:37:55+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0140s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0140s ]
+
+[ 2018-05-14T17:38:38+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:39:22+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:39:40+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:39:47+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:39:53+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0140s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0120s ]
+
+[ 2018-05-14T17:40:45+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:41:10+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:41:15+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:41:25+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0140s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0140s ]
+
+[ 2018-05-14T17:41:31+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:42:43+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:44:35+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:49:09+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0120s ]
+
+[ 2018-05-14T17:49:33+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=vfyhlHcCmkG78KeWLjunq9ETRIFgAPw65sad1zUB
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291373 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291373 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:49:55+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=001MZ5Ml0zEkPl1qRDKl0MCZLl0MZ5M9&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526291394',`last_login_ip`='167777367' WHERE `uid` = 10 [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0150s ]
+SQL: SELECT `mobile` FROM `luck_ucenter_member` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member_openid` SET `uid`='10',`access_token`='d5nOeboVKCrHzcaht9GpAL1RJ8mlvYPxDQy7I046',`open_id`='DBAD68CD-2061-C223-D6B8-1D7DE482917C',`update_time`='1526291395',`create_time`='1525939509' WHERE `id` = 9 [ RunTime:0.0260s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:49:56+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=DBAD68CD-2061-C223-D6B8-1D7DE482917C&os_access_token=d5nOeboVKCrHzcaht9GpAL1RJ8mlvYPxDQy7I046
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291396 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291396 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:51:19+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=011MR9jy0JzK7g14bqly0lvXiy0MR9jq&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0210s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+NOTIC: [2] Missing argument 3 for User\Api\UserApi::register(), called in D:\phpStudy\WWW\22_cj\Application\Common\Logic\MemberLogic.class.php on line 607 and defined D:\phpStudy\WWW\22_cj\Application\User\Api\UserApi.class.php 第 33 行.
+NOTIC: [8] Undefined variable: email D:\phpStudy\WWW\22_cj\Application\User\Api\UserApi.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0200s ]
+SQL: INSERT INTO `luck_member` (`sex`,`thumb`,`nickname`,`uid`,`status`,`reg_time`) VALUES ('1','https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA/132','搬运工','11','1','1526291479') [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\SyncLoginModel.class.php 第 46 行.
+SQL: UPDATE `luck_sync_login` SET `uid`='11',`is_sync`='1' WHERE `id` = 2 [ RunTime:0.0210s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_01b210f222b0ab709003dce626a3f265.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526291478',`last_login_ip`='167777367' WHERE `uid` = 11 [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0100s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`thumb` FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username`,`mobile` FROM `luck_ucenter_member` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `luck_member_openid` (`uid`,`access_token`,`open_id`,`update_time`,`create_time`) VALUES ('11','m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR','8CE64C67-475B-9950-53AF-F8BDC7470AB7','1526291479','1526291479') [ RunTime:0.0330s ]
+
+[ 2018-05-14T17:51:20+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291480 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291480 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:51:53+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+
+[ 2018-05-14T17:52:35+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:53:04+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:53:15+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:53:25+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0120s ]
+
+[ 2018-05-14T17:54:16+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0160s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0140s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:54:30+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:54:42+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 194 行.
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 195 行.
+
+[ 2018-05-14T17:55:43+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0150s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0150s ]
+
+[ 2018-05-14T17:56:13+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:56:29+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:56:39+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:56:45+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:56:56+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 194 行.
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 195 行.
+
+[ 2018-05-14T17:57:43+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:57:43+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0030s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 195 行.
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\22_cj\Application\Api\Logic\WechatLogic.class.php 第 196 行.
+
+[ 2018-05-14T17:57:54+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:58:01+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:58:16+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T17:58:23+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+
+[ 2018-05-14T17:58:27+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:58:49+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0190s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0180s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:58:53+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0140s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0110s ]
+
+[ 2018-05-14T17:59:08+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T17:59:09+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0160s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T17:59:39+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291978 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526291978 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:00:17+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+
+[ 2018-05-14T18:00:36+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_f5efb28f8c171812c8ec62bbbfa8938f.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+
+[ 2018-05-14T18:01:14+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T18:01:44+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0130s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0130s ]
+
+[ 2018-05-14T18:01:49+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:01:51+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:02:04+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:02:06+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T18:02:07+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:02:09+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:02:09+08:00 ] 10.0.20.87 /api.php/Luck/editAddress?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=11&address=%E6%96%B0%E6%B8%AF%E4%B8%AD%E8%B7%AF397%E5%8F%B7&province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&area=%E6%B5%B7%E7%8F%A0%E5%8C%BA
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Model.class.php 第 1090 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\AddressModel.class.php 第 64 行.
+SQL: INSERT INTO `luck_address` (`address`,`province`,`city`,`area`) VALUES ('新港中路397号','广东省','广州市','海珠区') [ RunTime:0.0360s ]
+
+[ 2018-05-14T18:02:21+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:02:21+08:00 ] 10.0.20.87 /api.php/Luck/showLuckAddr?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=undefined
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 'undefined'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_address` [ RunTime:0.0100s ]
+
+[ 2018-05-14T18:02:33+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:02:33+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T18:03:34+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+
+[ 2018-05-14T18:04:14+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="11" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 AND `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT `user_id` FROM `luck_get_in` WHERE `p_id` = 11 ORDER BY `id` desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = 11  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_team` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_team` WHERE `p_id` = 11 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:04:20+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+
+[ 2018-05-14T18:22:42+08:00 ] 10.0.20.87 /api.php/Luck/showPrize?os_open_id=undefined&os_access_token=undefined&pid=11
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `open_id` = 'undefined' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:22:51+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=0010L8Qo0oSjOr1FU2Qo09X3Qo00L8QF&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0250s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+SQL: INSERT INTO `luck_member` (`nickname`,`status`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`uid`) VALUES ('9cn_20180514175119992','1','0','167777367','1526293371','0','0','11') [ RunTime:0.0300s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526293371',`last_login_ip`='167777367' WHERE `uid` = 11 [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0110s ]
+SQL: SELECT `mobile` FROM `luck_ucenter_member` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:22:51+08:00 ] 127.0.0.1 /api.php
+ERR: 无法加载控制器:Index
+
+[ 2018-05-14T18:22:53+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293373 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293373 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:23:12+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T18:27:35+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+
+[ 2018-05-14T18:28:05+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+
+[ 2018-05-14T18:28:20+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:28:20+08:00 ] 10.0.20.87 /api.php/Luck/getMyInfo?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT count(id) as c FROM `luck_prize` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:28:40+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+
+[ 2018-05-14T18:30:50+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=071qZB1D1ZwIh20o871D1sUU1D1qZB13&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 47 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_346e2441a2b8e50044e0c458453cc52e.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+SQL: INSERT INTO `luck_member` (`nickname`,`status`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`uid`) VALUES ('9cn_20180514175119992','1','0','167777367','1526293850','0','0','11') [ RunTime:0.0350s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526293850',`last_login_ip`='167777367' WHERE `uid` = 11 [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0240s ]
+SQL: SELECT `mobile` FROM `luck_ucenter_member` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:30:52+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293852 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293852 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0130s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:31:29+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:31:29+08:00 ] 10.0.20.87 /api.php/Luck/getMyInfo?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT count(id) as c FROM `luck_prize` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:32:33+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0170s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293952 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293952 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:32:34+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:32:34+08:00 ] 10.0.20.87 /api.php/Luck/getMyInfo?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0120s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT count(id) as c FROM `luck_prize` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:32:49+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=001U1xMq0EHcVp1gLSMq0V9PMq0U1xMe&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526293969',`last_login_ip`='167777367' WHERE `uid` = 11 [ RunTime:0.0360s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0140s ]
+SQL: SELECT `mobile` FROM `luck_ucenter_member` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:32:51+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0240s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293971 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526293971 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:32:52+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:32:52+08:00 ] 10.0.20.87 /api.php/Luck/getMyInfo?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_member` WHERE ( uid=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT count(id) as c FROM `luck_prize` WHERE `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT count(id) as c FROM `luck_get_in` WHERE `user_id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:34:14+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526294054 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526294054 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:34:16+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-05-14T18:34:17+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0120s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:34:17+08:00 ] 10.0.20.87 /api.php/Luck/getSponsor?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526294057 ) ORDER BY `sort` asc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `user_id` = 0 AND (  open_time>=1526294057 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 3 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 4 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 5 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 6 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 10 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 1 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 2 AND `user_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:34:18+08:00 ] 10.0.20.87 /api.php/Luck/setFormId?os_open_id=8CE64C67-475B-9950-53AF-F8BDC7470AB7&os_access_token=m4sDKTIb8WSCaBNc3vfHZhu5MFA162GkiU9O0woR&formid=the%20formId%20is%20a%20mock%20one
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0140s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:43:54+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=061wyCNZ04AmiZ1RaZMZ0iEINZ0wyCNK&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+SQL: INSERT INTO `luck_member` (`nickname`,`status`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`uid`) VALUES ('9cn_20180514175119992','1','0','167777367','1526294633','0','0','11') [ RunTime:0.0250s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526294633',`last_login_ip`='167777367' WHERE `uid` = 11 [ RunTime:0.0300s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0130s ]
+SQL: SELECT `mobile` FROM `luck_ucenter_member` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-14T18:47:33+08:00 ] 10.0.20.87 /api.php/member/syncOauthLogin?access_token=081rwGDj2ax4qF0nCmGj2fwADj2rwGDc&nickname=%E6%90%AC%E8%BF%90%E5%B7%A5&sex=1&headimg=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FDYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA%2F132&type=wxxcx
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0150s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 46 行.
+NOTIC: [8] Undefined index: unionid D:\phpStudy\WWW\22_cj\Application\Api\Controller\MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `luck_sync_login` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `luck_sync_login` WHERE `type_uid` = 'oOf9n5OoO3KdDRS5K7KMtYMlGtTA' AND `type` = 'wxxcx' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+NOTIC: [2] Missing argument 3 for User\Api\UserApi::register(), called in D:\phpStudy\WWW\22_cj\Application\Common\Logic\MemberLogic.class.php on line 607 and defined D:\phpStudy\WWW\22_cj\Application\User\Api\UserApi.class.php 第 33 行.
+NOTIC: [8] Undefined variable: email D:\phpStudy\WWW\22_cj\Application\User\Api\UserApi.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0210s ]
+SQL: INSERT INTO `luck_member` (`sex`,`thumb`,`nickname`,`uid`,`status`,`reg_time`) VALUES ('1','https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoibeD7Rnic0pXLibo2sq2FmkZ1ZBcric6OVHu62YqTIOAxqeFyVzSuBefDtxkkTP1e2eLH5LKFHbgMYA/132','搬运工','12','1','1526294853') [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\22_cj\Application\Common\Model\SyncLoginModel.class.php 第 46 行.
+SQL: UPDATE `luck_sync_login` SET `uid`='12',`is_sync`='1' WHERE `id` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] unlink(./Runtime/Temp/prize_01b210f222b0ab709003dce626a3f265.php): No such file or directory D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 170 行.
+SQL: SELECT * FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1526294852',`last_login_ip`='167777367' WHERE `uid` = 12 [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: prize_sess_ D:\phpStudy\WWW\22_cj\ThinkPHP\Mode\Api\functions.php 第 1099 行.
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `luck_ucenter_member` [ RunTime:0.0110s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`thumb` FROM `luck_member` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username`,`mobile` FROM `luck_ucenter_member` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member_openid` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `luck_member_openid` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `luck_member_openid` (`uid`,`access_token`,`open_id`,`update_time`,`create_time`) VALUES ('12','KUxVso7WXj6C9uwlJOvgtB8ehSG5zkL1Zq4riMND','67A8BC9F-9916-4803-122A-3A8AD8A3660F','1526294853','1526294853') [ RunTime:0.0320s ]
+
+[ 2018-05-14T18:49:45+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+
+[ 2018-05-14T18:50:11+08:00 ] 127.0.0.1 /api.php/Luck/test
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member_openid` [ RunTime:0.0120s ]
+

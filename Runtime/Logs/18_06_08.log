@@ -1,0 +1,34 @@
+[ 2018-06-08T10:56:39+08:00 ] 127.0.0.1 /api.php/Luck/getSponsor
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0620s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+
+[ 2018-06-08T10:56:52+08:00 ] 127.0.0.1 /api.php/Luck/getSponsor
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: select group_concat(id) as ids from luck_prize where user_id=0 and status=1 and (open_time>1528387200 or open_type in(2,3,4)) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: ids D:\phpStudy\WWW\22_cj\Application\Api\Controller\LuckController.class.php 第 28 行.
+
+[ 2018-06-08T10:58:11+08:00 ] 127.0.0.1 /api.php/Luck/getSponsor
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: select group_concat(id) as ids from luck_prize where user_id=0 and status=1 and (open_time>1528387200 or open_type in(2,3,4)) [ RunTime:0.0000s ]
+
+[ 2018-06-08T10:58:38+08:00 ] 127.0.0.1 /api.php/Luck/getSponsor
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Undefined index: sign D:\phpStudy\WWW\22_cj\Application\Api\Controller\BaseController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: select group_concat(id) as ids from luck_prize where user_id=0 and status=1 and (open_time>1528387200 or open_type in(2,3,4)) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`thumb`,`name`,`num`,`open_type`,`open_time`,`open_num`,`sponsor`,`status`,`team_enable` FROM `luck_prize` WHERE `id` IN ('49') ORDER BY `sort` asc,`create_time` desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `id` IN ('49') LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `luck_get_in` WHERE `p_id` = 49 AND `user_id` = 12  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_get_in` WHERE `p_id` = 49 AND `user_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+

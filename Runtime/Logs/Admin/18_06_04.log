@@ -1,0 +1,672 @@
+[ 2018-06-04T11:27:25+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/prizeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+
+[ 2018-06-04T11:27:25+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `luck_config` [ RunTime:0.0440s ]
+SQL: SELECT `type`,`name`,`value` FROM `luck_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2018-06-04T11:27:25+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T11:27:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.031002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\phpStudy\WWW\22_cj\ThinkPHP\Common\functions.php 第 1759 行.
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0470s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`make_num`,`thumb`,`local_url`,`amount` FROM `luck_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0560s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1528082850',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0240s ]
+
+[ 2018-06-04T11:27:31+08:00 ] 127.0.0.1 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\AdminController::index($model_name = NULL, $display = true) D:\phpStudy\WWW\22_cj\Application\Admin\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 1 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 1 AND `hide` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0110s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_action_log` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_action_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_document` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_document` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_category` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_model` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.169009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.169009s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SyncLogin' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: display D:\phpStudy\WWW\22_cj\Addons\SyncLogin\SyncLoginAddon.class.php 第 76 行.
+INFO: Run Addons\SyncLogin\SyncLoginAddon [ RunTime:0.005001s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.174010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T11:27:32+08:00 ] 127.0.0.1 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\AdminController::index($model_name = NULL, $display = true) D:\phpStudy\WWW\22_cj\Application\Admin\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 1 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 1 AND `hide` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0100s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_action_log` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_action_log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_document` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_document` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_category` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_model` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.077005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.077004s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SyncLogin' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: display D:\phpStudy\WWW\22_cj\Addons\SyncLogin\SyncLoginAddon.class.php 第 76 行.
+INFO: Run Addons\SyncLogin\SyncLoginAddon [ RunTime:0.002000s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.079004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T11:27:32+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/prizeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.019001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/prizeList%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`user_id`,`oid`,`type`,`thumb`,`name`,`num`,`package`,`package_num`,`open_type`,`open_time`,`open_num`,`sponsor`,`sponsor_des`,`prize_des`,`prize_word`,`sponsor_word`,`appid`,`sponsor_url`,`status`,`create_time`,`sort`,`team_enable`,`share_pic`,`end_time` FROM `luck_prize` WHERE `status` >= 0 ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0260s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '48'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '47'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '46'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '45'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '44'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '43'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '42'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '41'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '40'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '39'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '38'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '37'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '36'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '35'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '34'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '33'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '30'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '29'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-04T11:27:37+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/sponsorApply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/sponsorApply%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=331 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_apply` [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_apply` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`status`,`create_time` FROM `luck_apply` WHERE `status` >= 0 ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-04T11:27:38+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/prizeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.022002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/prizeList%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`user_id`,`oid`,`type`,`thumb`,`name`,`num`,`package`,`package_num`,`open_type`,`open_time`,`open_num`,`sponsor`,`sponsor_des`,`prize_des`,`prize_word`,`sponsor_word`,`appid`,`sponsor_url`,`status`,`create_time`,`sort`,`team_enable`,`share_pic`,`end_time` FROM `luck_prize` WHERE `status` >= 0 ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0100s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '48'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '47'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '46'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '45'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '44'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '43'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '42'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '41'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '40'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '39'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '38'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '37'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '36'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '35'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '34'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '33'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '31'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '30'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '29'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T11:27:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Luck/prizeEdit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.030001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/prizeEdit%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=328 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 94 行.
+NOTIC: [8] Undefined index: name D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 101 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 107 行.
+NOTIC: [8] Undefined index: thumb D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 108 行.
+NOTIC: [8] Undefined index: num D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 118 行.
+NOTIC: [8] Undefined index: open_type D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 127 行.
+NOTIC: [8] Undefined index: open_type D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 128 行.
+NOTIC: [8] Undefined index: open_type D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 129 行.
+NOTIC: [8] Undefined index: open_type D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 130 行.
+NOTIC: [8] Undefined index: open_time D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 139 行.
+NOTIC: [8] Undefined index: open_num D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 148 行.
+NOTIC: [8] Undefined index: sponsor D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 157 行.
+NOTIC: [8] Undefined index: sponsor_des D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 166 行.
+NOTIC: [8] Undefined index: sponsor_word D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 175 行.
+NOTIC: [8] Undefined index: prize_des D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 184 行.
+NOTIC: [8] Undefined index: prize_word D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 193 行.
+NOTIC: [8] Undefined index: sponsor_url D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 202 行.
+NOTIC: [8] Undefined index: sort D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T11:27:42+08:00 ] 127.0.0.1 /Admin/File/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.027001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `luck_file` [ RunTime:0.0510s ]
+NOTIC: [8] Undefined variable: driver D:\phpStudy\WWW\22_cj\Application\Common\Model\FileModel.class.php 第 43 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+NOTIC: [8] Undefined index: Expires D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 51 行.
+NOTIC: [8] Undefined index: saveName D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 87 行.
+NOTIC: [8] Undefined index: custom_fields D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 90 行.
+
+[ 2018-06-04T18:15:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/prizeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+
+[ 2018-06-04T18:15:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2018-06-04T18:15:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-04T18:15:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+
+[ 2018-06-04T18:15:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/verify&random=0.9934282668459617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T18:15:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UC_APP_ID already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Constant UC_API_TYPE already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Constant UC_AUTH_KEY already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Constant UC_DB_DSN already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 21 行.
+NOTIC: [8] Constant UC_TABLE_PREFIX already defined D:\phpStudy\WWW\22_cj\Application\User\Conf\config.php 第 22 行.
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\phpStudy\WWW\22_cj\ThinkPHP\Common\functions.php 第 1759 行.
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`make_num`,`thumb`,`local_url`,`amount` FROM `luck_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_action` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `luck_member` SET `login`=`login`+1,`last_login_time`='1528107321',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0270s ]
+
+[ 2018-06-04T18:15:22+08:00 ] 127.0.0.1 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [2048] Declaration of Admin\Controller\IndexController::index() should be compatible with Admin\Controller\AdminController::index($model_name = NULL, $display = true) D:\phpStudy\WWW\22_cj\Application\Admin\Controller\IndexController.class.php 第 17 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 1 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 1 AND `hide` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ AdminIndex ] --START--
+SQL: SHOW COLUMNS FROM `luck_addons` [ RunTime:0.0050s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_action_log` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_action_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_document` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_document` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_category` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_model` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.127007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.128007s ]
+SQL: SELECT `config` FROM `luck_addons` WHERE `name` = 'SyncLogin' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: display D:\phpStudy\WWW\22_cj\Addons\SyncLogin\SyncLoginAddon.class.php 第 76 行.
+INFO: Run Addons\SyncLogin\SyncLoginAddon [ RunTime:0.147009s ]
+INFO: [ AdminIndex ] --END-- [ RunTime:0.275016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.147009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T18:15:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/luck/prizeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/prizeList%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luck_prize` WHERE `status` >= 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`user_id`,`oid`,`type`,`thumb`,`name`,`num`,`package`,`package_num`,`open_type`,`open_time`,`open_num`,`sponsor`,`sponsor_des`,`prize_des`,`prize_word`,`sponsor_word`,`appid`,`sponsor_url`,`status`,`create_time`,`sort`,`team_enable`,`share_pic`,`end_time` FROM `luck_prize` WHERE `status` >= 0 ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `luck_get_in` [ RunTime:0.0060s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '48'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '47'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '46'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '45'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '44'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '43'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '42'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '41'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '40'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '39'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '38'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '37'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '36'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '35'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '34'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '33'  [ RunTime:0.0010s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '32'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '31'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '30'  [ RunTime:0.0000s ]
+SQL: SELECT luck_member.thumb,luck_member.nickname,luck_member.uid FROM `luck_get_in` INNER JOIN luck_member ON luck_get_in.user_id = luck_member.uid  WHERE luck_get_in.status = 1 AND luck_get_in.p_id = '29'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T18:15:29+08:00 ] 127.0.0.1 /index.php?s=/Admin/Luck/prizeEdit/id/47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+NOTIC: [8] Constant UID already defined D:\phpStudy\WWW\22_cj\Application\Admin\Controller\AdminController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `luck_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `luck_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `luck_menu` WHERE ( url like '%Luck/prizeEdit%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=328 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `luck_menu` WHERE ( id=325 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `luck_menu` WHERE ( pid = 325 ) ORDER BY `sort` ASC  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `luck_menu` WHERE `pid` = 325 AND `hide` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '抽奖管理' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '提现申请' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '赞助商' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '推荐小程序' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '订单列表' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `luck_menu` WHERE `group` = '常见问题' AND `pid` = 325 AND `hide` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `luck_prize` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `luck_prize` WHERE ( id="47" ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\22_cj\Runtime\Cache\Admin\c5dced4464e81280388191838abde01a.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-04T18:15:50+08:00 ] 127.0.0.1 /Admin/File/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Session\Driver\Db.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `luck_file` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: driver D:\phpStudy\WWW\22_cj\Application\Common\Model\FileModel.class.php 第 43 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload.class.php 第 182 行.
+NOTIC: [8] Undefined index: Expires D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 51 行.
+NOTIC: [8] Undefined index: saveName D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 87 行.
+NOTIC: [8] Undefined index: custom_fields D:\phpStudy\WWW\22_cj\ThinkPHP\Library\Think\Upload\Driver\Qiniu\QiniuStorage.class.php 第 90 行.
+
