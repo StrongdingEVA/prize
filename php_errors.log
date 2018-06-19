@@ -1,0 +1,5 @@
+[24-May-2018 16:37:55 PRC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\phpStudy\WWW\22_cj\Application\Common\Logic\FileLogic.class.php on line 76
+[28-May-2018 09:49:58 PRC] PHP Notice:  Undefined index: HTTP_USER_AGENT in D:\phpStudy\WWW\22_cj\index.php on line 6
+[28-May-2018 09:49:59 PRC] PHP Notice:  Undefined index: HTTP_USER_AGENT in D:\phpStudy\WWW\22_cj\index.php on line 6
+[04-Jun-2018 09:12:19 PRC] PHP Notice:  Undefined index: HTTP_USER_AGENT in D:\phpStudy\WWW\22_cj\index.php on line 6
+[04-Jun-2018 09:12:21 PRC] PHP Notice:  Undefined index: HTTP_USER_AGENT in D:\phpStudy\WWW\22_cj\index.php on line 6
